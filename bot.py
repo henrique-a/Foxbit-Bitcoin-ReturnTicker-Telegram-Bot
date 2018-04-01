@@ -14,8 +14,8 @@ alta = json_data['high']
 baixa = json_data['low']
 volume = json_data['vol']
 
-bot = telegram.Bot(token='389931006:AAHPLmleKkPQ_VOf_eLVCu_GMXbhNxSyuD4')
-updater = Updater(token='389931006:AAHPLmleKkPQ_VOf_eLVCu_GMXbhNxSyuD4')
+bot = telegram.Bot(token='')
+updater = Updater(token='')
 dispatcher = updater.dispatcher
 
 def start(bot, update):
